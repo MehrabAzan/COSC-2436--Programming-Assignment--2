@@ -7,16 +7,16 @@ using namespace std;
 
 class Truck : public Vehicle {
 	private:
-		Bool sidePanelStorage;
-		Bool autoReleaseTailgate;
+		bool sidePanelStorage;
+		bool autoReleaseTailgate;
 	public:
 		Truck();
-		Truck(string ma, string mo, string c, int mp, double ms, Bool s, Bool a;
+		Truck(string make, string model, string color, int mpg, double msrp, bool sidePanelStorage, bool autoReleaseTailgate);
 		void PrintInfo();
-		void SetSidePanelStorage(Bool s) { sidePanelStorage = s; }
-		Bool GetSidePanelStorage() { return sidePanelStorage; }
-		void SetAutoReleaseTailgate(Bool a) { autoReleaseTailgate = a; }
-		Bool GetAutoReleaseTailgate() { return autoReleaseTailgate; }
+		void SetSidePanelStorage(bool sidePanelStorage) { this->sidePanelStorage = sidePanelStorage; }
+		bool GetSidePanelStorage() const { return sidePanelStorage; }
+		void SetAutoReleaseTailgate(bool autoReleaseTailgate) { this->autoReleaseTailgate = autoReleaseTailgate; }
+		bool GetAutoReleaseTailgate() const { return autoReleaseTailgate; }
 };
 
 #endif

@@ -7,16 +7,16 @@ using namespace std;
 
 class Car : public Vehicle {
 	private:
-		Bool spareInTrunk;
-		Bool rearWindshieldWiper;
+		bool spareInTrunk;
+		bool rearWindshieldWiper;
 	public:
 		Car();
-		Car(string ma, string mo, string c, int mp, double ms, Bool s, Bool r);
+		Car(string make, string model, string color, int mpg, double msrp, bool spareInTruck, bool rearWindshieldWiper);
 		void PrintInfo();
-		void SetSpareInTrunk(Bool s) { spareInTrunk = s; }
-		Bool GetSpareInTrunk() { return spareInTrunk; }
-		void SetRearWindshieldWiper(Bool r) { rearWindshieldWiper = r; }
-		Bool GetRearWindshieldWiper() { return rearWindshieldWiper; }
+		void SetSpareInTrunk(bool spareInTrunk) { this->spareInTrunk = spareInTrunk; }
+		bool GetSpareInTrunk() const { return spareInTrunk; }
+		void SetRearWindshieldWiper(bool rearWindshieldWiper) { this->rearWindshieldWiper = rearWindshieldWiper; }
+		bool GetRearWindshieldWiper() const { return rearWindshieldWiper; }
 };
 
 #endif

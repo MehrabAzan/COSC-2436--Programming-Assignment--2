@@ -11,12 +11,12 @@ Vehicle::Vehicle() {
 	msrp = 0.0;
 }
 
-Vehicle::Vehicle(string ma, string mo, string co, int mp, double ms) {
-	make = ma;
-	model = mo;
-	color = co;
-	mpg = mp;
-	msrp = ms;
+Vehicle::Vehicle(string make, string model, string color, int mpg, double msrp) {
+	this->make = make;
+	this->model = model;
+	this->color = color;
+	this->mpg = mpg;
+	this->msrp = msrp;
 }
 
 void Vehicle::PrintInfo() {
