@@ -12,7 +12,7 @@ class Truck : public Vehicle {
 	public:
 		Truck();
 		Truck(string make, string model, string color, int mpg, double msrp, bool sidePanelStorage, bool autoReleaseTailgate);
-		void PrintInfo();
+		void PrintInfo() const override;
 		void SetSidePanelStorage(bool sidePanelStorage) { this->sidePanelStorage = sidePanelStorage; }
 		bool GetSidePanelStorage() const { return sidePanelStorage; }
 		void SetAutoReleaseTailgate(bool autoReleaseTailgate) { this->autoReleaseTailgate = autoReleaseTailgate; }

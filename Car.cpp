@@ -1,7 +1,6 @@
 #include <string>
 #include <iostream>
 #include "Car.h"
-#include "Vehicle.h"
 using namespace std;
 
 Car::Car() {
@@ -16,7 +15,7 @@ Car::Car(string make, string model, string color, int mpg, double msrp, bool spa
 	this->rearWindshieldWiper = rearWindshieldWiper;
 }
 
-void Car::PrintInfo() {
+void Car::PrintInfo() const {
 	Vehicle::PrintInfo();
 	cout << "Spare in Trunk: " << (spareInTrunk ? "Yes" : "No") << endl;
 	cout << "Rear Windshield Wiper: " << (rearWindshieldWiper ? "Yes" : "No") << endl;

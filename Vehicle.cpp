@@ -19,7 +19,7 @@ Vehicle::Vehicle(string make, string model, string color, int mpg, double msrp) 
 	this->msrp = msrp;
 }
 
-void Vehicle::PrintInfo() {
+void Vehicle::PrintInfo() const {
 	cout << "Make: " << make << endl;
 	cout << "Model: " << model << endl;
 	cout << "Color: " << color << endl;

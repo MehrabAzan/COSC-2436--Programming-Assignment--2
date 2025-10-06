@@ -12,7 +12,7 @@ class Car : public Vehicle {
 	public:
 		Car();
 		Car(string make, string model, string color, int mpg, double msrp, bool spareInTruck, bool rearWindshieldWiper);
-		void PrintInfo();
+		void PrintInfo() const override;
 		void SetSpareInTrunk(bool spareInTrunk) { this->spareInTrunk = spareInTrunk; }
 		bool GetSpareInTrunk() const { return spareInTrunk; }
 		void SetRearWindshieldWiper(bool rearWindshieldWiper) { this->rearWindshieldWiper = rearWindshieldWiper; }

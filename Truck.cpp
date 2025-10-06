@@ -1,7 +1,6 @@
 #include <string>
 #include <iostream>
 #include "Truck.h"
-#include "Vehicle.h"
 using namespace std;
 
 Truck::Truck() {
@@ -16,7 +15,7 @@ Truck::Truck(string make, string model, string color, int mpg, double msrp, bool
 	this->autoReleaseTailgate = autoReleaseTailgate;
 }
 
-void Truck::PrintInfo() {
+void Truck::PrintInfo() const {
 	Vehicle::PrintInfo();
 	cout << "Side Panel Storage: " << (sidePanelStorage ? "Yes" : "No") << endl;
 	cout << "Auto Release Tailgate: " << (autoReleaseTailgate ? "Yes" : "No") << endl;
