@@ -11,12 +11,12 @@ class Car : public Vehicle {
 		Bool rearWindshieldWiper;
 	public:
 		Car();
-		Car(string make, string model, string color, int mpg, double msrp, Bool spareInTrunk, Bool rearWindshieldWiper);
-		void PrintDetails() const;
+		Car(string ma, string mo, string c, int mp, double ms, Bool s, Bool r);
+		void PrintInfo();
 		void SetSpareInTrunk(Bool s) { spareInTrunk = s; }
-		Bool GetSpareInTrunk() const { return spareInTrunk; }
+		Bool GetSpareInTrunk() { return spareInTrunk; }
 		void SetRearWindshieldWiper(Bool r) { rearWindshieldWiper = r; }
-		Bool GetRearWindshieldWiper() const { return rearWindshieldWiper; }
+		Bool GetRearWindshieldWiper() { return rearWindshieldWiper; }
 };
 
 #endif

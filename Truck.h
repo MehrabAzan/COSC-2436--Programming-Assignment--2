@@ -11,12 +11,12 @@ class Truck : public Vehicle {
 		Bool autoReleaseTailgate;
 	public:
 		Truck();
-		Truck(string make, string model, string color, int mpg, double msrp, Bool sidePanelStorage, Bool autoReleaseTailgate);
-		void PrintDetails() const;
+		Truck(string ma, string mo, string c, int mp, double ms, Bool s, Bool a;
+		void PrintInfo();
 		void SetSidePanelStorage(Bool s) { sidePanelStorage = s; }
-		Bool GetSidePanelStorage() const { return sidePanelStorage; }
+		Bool GetSidePanelStorage() { return sidePanelStorage; }
 		void SetAutoReleaseTailgate(Bool a) { autoReleaseTailgate = a; }
-		Bool GetAutoReleaseTailgate() const { return autoReleaseTailgate; }
+		Bool GetAutoReleaseTailgate() { return autoReleaseTailgate; }
 };
 
 #endif

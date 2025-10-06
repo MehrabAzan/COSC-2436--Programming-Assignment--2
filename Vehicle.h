@@ -13,20 +13,17 @@ class Vehicle {
 		double msrp;
 	public:
 		Vehicle();
-		Vehicle(string make, string model, string color, int mpg, double msrp);
-		void PrintList() const;
-		void SetMake(const string& m) { make = m; }
-		string GetMake() const { return make; }
-		void SetModel(const string& m) { model = m; }
-		string GetModel() const { return model; }
-		void SetColor(const string& c);
-		string GetColor() const; { return color; }
+		Vehicle(string ma, string mo, string co, int mp, double ms);
+		void PrintInfo();
+		void SetMake(string m) { make = m; }
+		string GetMake() { return make; }
+		void SetModel(string m) { model = m; }
+		string GetModel() { return model; }
+		void SetColor(string c);
+		string GetColor(); { return color; }
 		void SetMpg(int m); { mpg = m; }
-		int GetMpg() const; { return mpg; }
+		int GetMpg(); { return mpg; }
 		void SetMsrp(double m); { msrp = m; }
-		double GetMsrp() const; { return msrp; }
-		void PrintByMake(const string& make) const;
-		void PrintByModel(const string& model) const;
-		void PrintByColor(const string& color) const;
+		double GetMsrp(); { return msrp; }
 };
 #endif
