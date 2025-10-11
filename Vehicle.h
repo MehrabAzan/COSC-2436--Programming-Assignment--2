@@ -5,17 +5,22 @@
 using namespace std;
 
 class Vehicle {
-	private:
+	protected:
+		// protected member variables
 		string make;
 		string model;
 		string color;
 		int mpg;
 		double msrp;
 	public:
+		// Constructors
 		Vehicle();
 		Vehicle(string make, string model, string color, int mpg, double msrp);
-		virtual ~Vehicle() = default;
+		// Virtual method to print vehicle information
 		virtual void PrintInfo() const;
+		// Virtual destructor
+		virtual ~Vehicle() = default;
+		// Getters and setters
 		void SetMake(string make) { this->make = make; }
 		string GetMake() const { return make; }
 		void SetModel(string model) { this->model = model; }

@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\legen\\OneDrive\\Documents\\Programming Assignment #2\\COSC-2436--Programming-Assignment--2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4384B2F2-8D13-4EC0-A549-1C8D8350E70C}|Programming Assignment #2.vcxproj|C:\\Users\\legen\\OneDrive\\Documents\\Programming Assignment #2\\COSC-2436--Programming-Assignment--2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4384B2F2-8D13-4EC0-A549-1C8D8350E70C}|Programming Assignment #2.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4384B2F2-8D13-4EC0-A549-1C8D8350E70C}|Programming Assignment #2.vcxproj|C:\\Users\\legen\\OneDrive\\Documents\\Programming Assignment #2\\COSC-2436--Programming-Assignment--2\\Truck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4384B2F2-8D13-4EC0-A549-1C8D8350E70C}|Programming Assignment #2.vcxproj|solutionrelative:Truck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4384B2F2-8D13-4EC0-A549-1C8D8350E70C}|Programming Assignment #2.vcxproj|C:\\Users\\legen\\OneDrive\\Documents\\Programming Assignment #2\\COSC-2436--Programming-Assignment--2\\Vehicle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4384B2F2-8D13-4EC0-A549-1C8D8350E70C}|Programming Assignment #2.vcxproj|solutionrelative:Vehicle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4384B2F2-8D13-4EC0-A549-1C8D8350E70C}|Programming Assignment #2.vcxproj|C:\\Users\\legen\\OneDrive\\Documents\\Programming Assignment #2\\COSC-2436--Programming-Assignment--2\\Vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4384B2F2-8D13-4EC0-A549-1C8D8350E70C}|Programming Assignment #2.vcxproj|solutionrelative:Vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vehicle.h",
+              "DocumentMoniker": "C:\\Users\\legen\\OneDrive\\Documents\\Programming Assignment #2\\COSC-2436--Programming-Assignment--2\\Vehicle.h",
+              "RelativeDocumentMoniker": "Vehicle.h",
+              "ToolTip": "C:\\Users\\legen\\OneDrive\\Documents\\Programming Assignment #2\\COSC-2436--Programming-Assignment--2\\Vehicle.h",
+              "RelativeToolTip": "Vehicle.h",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA6wBwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-09T03:13:36.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vehicle.cpp",
+              "DocumentMoniker": "C:\\Users\\legen\\OneDrive\\Documents\\Programming Assignment #2\\COSC-2436--Programming-Assignment--2\\Vehicle.cpp",
+              "RelativeDocumentMoniker": "Vehicle.cpp",
+              "ToolTip": "C:\\Users\\legen\\OneDrive\\Documents\\Programming Assignment #2\\COSC-2436--Programming-Assignment--2\\Vehicle.cpp",
+              "RelativeToolTip": "Vehicle.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-09T03:16:05.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Truck.cpp",
+              "DocumentMoniker": "C:\\Users\\legen\\OneDrive\\Documents\\Programming Assignment #2\\COSC-2436--Programming-Assignment--2\\Truck.cpp",
+              "RelativeDocumentMoniker": "Truck.cpp",
+              "ToolTip": "C:\\Users\\legen\\OneDrive\\Documents\\Programming Assignment #2\\COSC-2436--Programming-Assignment--2\\Truck.cpp",
+              "RelativeToolTip": "Truck.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-09T03:15:27.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\legen\\OneDrive\\Documents\\Programming Assignment #2\\COSC-2436--Programming-Assignment--2\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\legen\\OneDrive\\Documents\\Programming Assignment #2\\COSC-2436--Programming-Assignment--2\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAAH4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-09T03:15:24.391Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
