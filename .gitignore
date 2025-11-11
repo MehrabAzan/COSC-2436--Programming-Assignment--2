@@ -1,7 +1,10 @@
 # Ignore everything
 *
 
-# But not these:
+# But not directories — Git needs to enter them to find .cpp/.h
+!*/
+
+# Keep these
 !.gitignore
 !*.cpp
 !*.h
